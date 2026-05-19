@@ -148,8 +148,8 @@ Transform:
   m_GameObject: {fileID: 84727875}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0321, y: -4.1813, z: 0}
-  m_LocalScale: {x: 0.522917, y: 0.4150584, z: 1}
+  m_LocalPosition: {x: -0.2762, y: -4.174, z: 0}
+  m_LocalScale: {x: 0.47099358, y: 0.40555358, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 711499263}
@@ -1467,7 +1467,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &346160992
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1488,8 +1488,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -960.17633, y: -540.27356}
-  m_SizeDelta: {x: 50.734, y: 30.257}
+  m_AnchoredPosition: {x: -960.17633, y: -539.93115}
+  m_SizeDelta: {x: 50.734, y: 30.9418}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &346160993
 MonoBehaviour:
@@ -3321,7 +3321,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1276068154
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3548,10 +3548,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BlockGridSpawner
   blockPrefab: {fileID: 6171806744413433725, guid: ca4034f3c3688b64cb2ae9076c9bbe44, type: 3}
   parent: {fileID: 1992237779}
-  rows: 2
-  cols: 5
+  rows: 3
+  cols: 10
   spacing: {x: 1.65, y: 0.7}
-  startPosition: {x: -7.5, y: 3}
+  startPosition: {x: -7.5, y: 3.5}
 --- !u!1 &1673364703
 GameObject:
   m_ObjectHideFlags: 0
