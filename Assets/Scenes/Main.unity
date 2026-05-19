@@ -251,7 +251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30d006b9e81bbc84080bbe4e0a8ce323, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PaddleController
-  speed: 11
+  speed: 12
   limitX: 7
   gameManager: {fileID: 138704414}
   LeftKey: 100
@@ -3546,12 +3546,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4af8001b4cd118a438a8ff4ca5ab2876, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockGridSpawner
-  blockPrefab: {fileID: 6171806744413433725, guid: ca4034f3c3688b64cb2ae9076c9bbe44, type: 3}
+  blockPrefab: {fileID: 5579656158081204331, guid: ca4034f3c3688b64cb2ae9076c9bbe44, type: 3}
   parent: {fileID: 1992237779}
-  rows: 3
-  cols: 10
+  baseRows: 3
+  cols: 1
   spacing: {x: 1.65, y: 0.7}
   startPosition: {x: -7.5, y: 3.5}
+  currentLevel: 1
+  maxRows: 7
+  hardBlockChance: 0.15
 --- !u!1 &1673364703
 GameObject:
   m_ObjectHideFlags: 0
@@ -3634,7 +3637,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1673364706}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 138704414}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: NextLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1673364706
 MonoBehaviour:
   m_ObjectHideFlags: 0
