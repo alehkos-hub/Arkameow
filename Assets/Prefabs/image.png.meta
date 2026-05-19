@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 933c4754a6f06d54dbbfb0a8f4f1bdc1
+guid: 7e8cc6631d181564d87a2cfcb8dbc3a6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 529487301530022908
-    second: "Dise\xF1o_sin_t\xEDtulo__8_-removebg-preview_0"
-  - first:
-      213: 873750606419441749
-    second: "Dise\xF1o_sin_t\xEDtulo__8_-removebg-preview_1"
+      213: 1208040086343421634
+    second: image_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,13 +46,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 15}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Dise\xF1o_sin_t\xEDtulo__8_-removebg-preview_0"
+      name: image_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 275
-        width: 109
-        height: 83
+        x: 42
+        y: 0
+        width: 394
+        height: 188
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,52 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cf3f6c835ed195700800000000000000
-      internalID: 529487301530022908
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Dise\xF1o_sin_t\xEDtulo__8_-removebg-preview_1"
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 275
-        width: 108
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 558b9e51c8f202c00800000000000000
-      internalID: 873750606419441749
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Dise\xF1o_sin_t\xEDtulo__8_-removebg-preview_2"
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 234
-        width: 267
-        height: 141
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b06839dab1adf444c9aad289eafd13e5
-      internalID: 622948886
+      spriteID: 2ce8eecde02d3c010800000000000000
+      internalID: 1208040086343421634
       vertices: []
       indices: 
       edges: []
@@ -172,8 +125,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6d931ca0c0004d347a97ebeb86dc5ece
-    internalID: 0
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
@@ -182,9 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Dise\xF1o_sin_t\xEDtulo__8_-removebg-preview_0": 529487301530022908
-      "Dise\xF1o_sin_t\xEDtulo__8_-removebg-preview_1": 873750606419441749
-      "Dise\xF1o_sin_t\xEDtulo__8_-removebg-preview_2": 622948886
+      image_0: 1208040086343421634
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

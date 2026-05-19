@@ -126,5 +126,16 @@ public class GameManager : MonoBehaviour
     {
         Application.Quit();
     }
+    public void NextLevel()
+    {
+        if (blockSpawner != null)
+        {
+            blockSpawner.NextLevel();
+            blocksRemaining = blockSpawner.GetTotalBlocks();
+        }
+
+        ResetBall();
+        SetState(GameState.Playing);
+    }
 
 }
