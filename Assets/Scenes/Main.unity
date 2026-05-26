@@ -3549,10 +3549,10 @@ MonoBehaviour:
   blockPrefab: {fileID: 5579656158081204331, guid: ca4034f3c3688b64cb2ae9076c9bbe44, type: 3}
   parent: {fileID: 1992237779}
   baseRows: 3
-  cols: 1
+  cols: 10
   spacing: {x: 1.65, y: 0.7}
   startPosition: {x: -7.5, y: 3.5}
-  currentLevel: 1
+  currentLevel: 2
   maxRows: 7
   hardBlockChance: 0.15
 --- !u!1 &1673364703
