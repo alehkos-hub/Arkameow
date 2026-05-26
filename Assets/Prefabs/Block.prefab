@@ -26,8 +26,8 @@ Transform:
   m_GameObject: {fileID: 4042485659734304105}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.0025, y: 0.0049, z: 0}
+  m_LocalScale: {x: 1.0044, y: 1.0349656, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7645243072341718794}
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: -7756730623679354831, guid: eda64fd53db4dab41b287f36b9ff628c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -118,7 +118,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.99, y: 1.26, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7645243072341718794}
@@ -169,8 +169,8 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 0}
+  m_SortingOrder: 5
+  m_Sprite: {fileID: -6208252333600804218, guid: eda64fd53db4dab41b287f36b9ff628c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -178,7 +178,7 @@ SpriteRenderer:
   m_Size: {x: 1.09, y: 0.83}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &5495738039238874227
@@ -315,7 +315,7 @@ MonoBehaviour:
   normalSprite: {fileID: -114609364358793671, guid: ec4f9c78bfc244f4a92ef7e2a434aec4, type: 3}
   hardSprite: {fileID: -6208252333600804218, guid: eda64fd53db4dab41b287f36b9ff628c, type: 3}
   damageOverlay: {fileID: 4042485659734304105}
-  unbreakableSprite: {fileID: 21300000, guid: 7e8cc6631d181564d87a2cfcb8dbc3a6, type: 3}
+  unbreakableSprite: {fileID: 8904331999402018524, guid: 7c590082b8fc8bc478060ab507ac0e21, type: 3}
   breakEffect: {fileID: 6092398358889786578}
   breakAnimator: {fileID: 5495738039238874227}
   destroyDelay: 0.2
