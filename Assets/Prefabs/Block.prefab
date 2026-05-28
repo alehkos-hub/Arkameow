@@ -309,7 +309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f736a6e68464f9448969be495cf40cc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Block
-  points: 10
+  points: 50
   hitPoints: 2
   countsForVictory: 1
   normalSprite: {fileID: -114609364358793671, guid: ec4f9c78bfc244f4a92ef7e2a434aec4, type: 3}
@@ -336,7 +336,7 @@ CapsuleCollider2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_LayerOverridePriority: 0
+  m_LayerOverridePriority: 5
   m_ForceSendLayers:
     serializedVersion: 2
     m_Bits: 4294967295
